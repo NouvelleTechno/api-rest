@@ -27,7 +27,7 @@ if($_SERVER['REQUEST_METHOD'] == 'GET'){
         // On récupère le produit
         $produit->lireUn();
 
-        // On vérifie si on a au moins 1 produit
+        // On vérifie si le produit existe
         if($produit->nom != null){
 
             $prod = [
